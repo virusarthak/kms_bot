@@ -1,0 +1,1662 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi","Hii","Hiii","Hiiii","Hiiiiii","Hiiiiiii","Hiiiiiiii",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi, there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! How may I help you?",
+        "Greetings! How can I be of service?",
+        "Hello there! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Get lost",
+          "bbye"
+      ],
+      "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+          "Thanks",
+          "Thank you"
+      ],
+      "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+      ]
+    },
+    {
+      "tag": "Identity",
+          "patterns": [
+              "Who are you",
+              "what are you",
+              "what is your name"
+          ],
+          "responses": [
+              "I am KMS, a Deep-Learning chatbot"
+          ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you"
+      ],
+      "responses": [
+          "I was made by KMS."
+      ]
+    },
+    {
+      "tag": "activity",
+          "patterns": [
+              "what are you doing",
+              "what are you upto"
+          ],
+          "responses": [
+              "Talking to you, of course!",
+              "Trying to learn new stuff everyday"
+          ]
+    },
+   
+    {
+      "tag": "appreciate",
+          "patterns": [
+              "awesome",
+              "great",
+              "good",
+              "Great"
+          ],
+          "responses": [
+              "Thank you!"
+          ]
+    },
+    {
+      "tag": "no",
+          "patterns": [
+              "no",
+              "nope"
+          ],
+          "responses": [
+              "Okay"
+          ]
+    },{
+      "tag": "how are you",
+          "patterns": [
+              "how are you"
+          ],
+          "responses": [
+              "I'm Good. Thanks for asking","I'm fine. Thanks for asking"
+          ]
+    },
+    {
+      "tag": "age",
+          "patterns": [
+              "how old are you",
+              "when were you made",
+              "what is your age",
+              "age"
+          ],
+          "responses": [
+              "I was made in 2023, if that's what you are asking!"
+          ]
+    },
+    {
+      "tag": "job openings",
+         "patterns": [
+          "job openings","job opening",
+          "job vacancy",
+          "is there any vacancy","give me job details","tell me about job openings","want to know about jobs",
+          "want to know about job opening","provide me job details","there are any jobs","any jobs there",
+          "What job openings does Intech Systems have?","need jobs",
+          "What positions are available?",
+          "What vacancy are available at Intech Systems?",
+          "any job vacancy",
+          "jobs","job",
+          "openings","show me job openings",
+          "vacancy","i want to see job openings"
+         ],
+         "responses": [
+          "We have various job openings available. Please visit our website for more information.\n Link for this is :<a href=' https://intech-systems.com/careers/#view-openings' target='_blank'>Job openings</a> ",
+          "We have various vacancy available. Please visit our website for more information.\n Link for this is :<a href=' https://intech-systems.com/careers/#view-openings' target='_blank'>Job openings</a>",
+          "Our current job openings can be found on our website. Link for job opening:\n <a href=' https://intech-systems.com/careers/#view-openings' target='_blank'>Job openings</a> "
+         ]
+    },
+    {
+       "tag":"apply for job",
+          "patterns": ["apply for job",
+              "How can I apply for a job?",
+              "How to apply?",
+              "Process to apply for job?"
+          ],
+          "responses": [
+              "To apply for job send your CV at:\n recruitment@intech-systems.com" 
+          ]
+    },
+    {
+       "tag":"recruitment email",
+          "patterns": ["recruitment email",
+             "what is recruitment email","recruitment contact"
+          ],
+          "responses": [
+              "recruitment@intech-systems.com" 
+          ]
+    },
+    {
+      "tag": "hiring process",
+        "patterns": [
+           "What is the process of hiring?",
+           "Hiring process"
+        ],
+        "responses": [
+          "1. First you need to send your CV at:\n recruitment@intech-systems.com \n 2.After shortlisting of the CV, candidates have to go through one Online assesment and the two interview rounds."
+        ]
+    },
+     {
+      "tag":"technical consultant skills",
+        "patterns": [
+          "What technical skills are required for a technical consultatnt ?",
+          "Skills required for technical consultant?",
+          "Required skills for technical consultant?",
+          "What abilities are needed for technical consultant?"
+        ],
+        "responses": [
+           "The skills required for a technical consultant at Intech Systems include proficiency in any programming languages such as C programming, C++ Java, C#, or Python and also the knowledge of database."
+        ] 
+    },
+    {
+      "tag":"project manager skills",
+      "patterns": [
+         "What are the skills required for project manager?",
+         "Skills needed for project manager?",
+         "Project manager key skills?",
+         "Required skills for project manager?",
+         "What abilities are needed for project manager?","project manager skills"
+      ],
+      "responses": [
+          "Key skills for a project manager at Intech Systems include project management experience, leadership skills, excellent communication, and the ability to manage resources effectively."
+      ]
+    },
+    {
+      "tag":"Business central project lead",
+      "patterns": ["bc project lead skill",
+         "What are the skills required for project lead for business central?",
+         "Key skills for Business central project lead?",
+         "Business central project lead required skills?",
+         "What abilities are needed for business central project lead?"
+      ],
+      "responses": [
+          "Intech Systems seeks a Project Lead with 5+ years' experience in Dynamics Business Central/Navision, sound knowledge of all modules, experience leading teams of 3-4, and delivering 5+ end-to-end implementations."
+      ]
+    },
+    {
+      "tag":"SharePoint developer skills",
+      "patterns": [
+         "What are the key skills required for the SharePoint Developer?",
+         "Skills required for SharePoint Developers?",
+         "What abilities are needed for SharePoint Developer?","SharePoint developer skills"
+      ],
+      "responses": [
+          "For SharePoint Developer candidates must have experience designing and configuring SharePoint Online applications using CSOM, JSOM, SSOM, SPServices, Office 365, and SPFx. Proficiency in InfoPath Form Development, AngularJS, ReactJS, C#, PowerShell, Microsoft 365, Microsoft 365 SharePoint Online, SharePoint Server (On-Premises), and REST API is essential."
+      ]
+    },
+    {
+      "tag":"D365 Finance Consultant skills",
+      "patterns": ["D365 Finance Consultant skills",
+         "What are the skills required for D365 Finance Consultant?",
+         "Key skills for D365 Finance Consultant?",
+         "D365 Finance Consultant required skills?",
+         "What abilities are needed for D365 Finance Consultant?" 
+      ],
+      "responses": [
+          "We are seeking a Dynamics 365 Project Operations Functional Consultant with 3+ years of experience in Dynamics 365 CE and Project Operations/Project Service Automation.\n The ideal candidate will have expert knowledge of Dynamics 365 Project Operations or Project Service Automation (PSA) and working knowledge of Power Platform, Azure and related technologies.\n They will lead the delivery team through all stages of the project, be the initial point of contact for customer concerns, and author high-level documentation. Strong communication, client-facing, and interpersonal skills are required.\n For more details you can refer this link\n<a href=' https://intech-systems.com/careers/dynamics-365-project-operations-functional-consultant/' target='_blank'>D365 Finance Consultant skills</a> "
+      ]
+    },
+    {
+      "tag":"Azure Technical Lead Skills",
+      "patterns": ["Azure Technical Lead Skills",
+          "What are the skills required for Azure Technical Lead?",
+          "Key skills for Azure Technical Lead?",
+          "Azure Technical Lead required skills?",
+          "What abilities are needed for Azure Technical Lead?"      
+      ],
+      "responses": [
+          "2 + years of C#, Web API, .NET (Core and Framework), xUnit, SQL Server\n Microservices and server less architecture with service fabric, functions and api apps, service bus, message queues\n Visual Studio, TFS, VSTS and GIT\n Modular programming in JS, Angular 6/4+, Type Script and other front-end unit testing tools\n Expertise with Azure Active Directory, VNETs, NSGs, ASGs, OAuth and OpenID Connect, Azure traffic manager, CDN, App Gateway and load balancers\n CI/CD, DevSecOps, setting up and managing Build and release pipelines"
+      ]
+    },
+    {
+      "tag":"Azure Data Analytics Skills",
+      "patterns": ["Azure Data Analytics Skills",
+          "What are the skills required for Azure Data Analystics?",
+          "Key skills for Azure Data Analystics?",
+          "Azure Data Analystics required skills?",
+          "What abilities are needed for Azure Data Analystics?"
+      ],
+      "responses": [
+        " Skills required for Azure data security are : \nAzure Data Factory, Azure Data Lake, Data Bricks, Python\n Deploying and managing Microsoft Azure technologies (Azure Data Factory, Databricks, Azure SQL DB, Azure SQL DW, Azure Data Lake, Analysis Services, Cosmos DB). \n Experience implementing Azure Data Factory Pipelines using latest technologies and techniques"
+      ]
+    },
+    {
+      "tag":"Business Development Executive Skills",
+      "patterns": [
+          "What are the skills required for Business Development Executive?",
+          "Key skills for Business Development Executive?",
+          "Business Development Executive required skills?",
+          "What abilities are needed for Business Development Executive?",
+          "What are the skills required for BDE?",
+          "Key skills for BDE?",
+          "BDE required skills?",
+          "What abilities are needed for BDE?" 
+      ],
+      "responses": [
+          "For Business Development Executive(BDE) role candidate must have : Positive attitude and willingness to work, Excellent communication skills , Experience in ERP sales/ CRM sales/ Enterprise software sales shall be preffered and Good to have experience in International Market."
+
+      ]
+    },
+    {
+      "tag":"D365 Business Central Consultant Skills",
+      "patterns": [
+          "What are the skills required for D365 Business Central Consultant?",
+          "Key skills for D365 Business Central Consultant?",
+          "D365 Business Central Consultant required skills?",
+          "What abilities are needed for D365 Business Central Consultant?"
+      ],
+      "responses": [
+          "For D365 Business Central Conusultant candidate must have experience as software implementation consultant, ERP knowledge, excellent functional knowledge of SCM, FM, Taxation, inventory, manufacturing cost. MS Office expertise, good business process knowledge, English communication, travel flexibility. Prior US/UK client & Business Central experience preferred."
+      ]
+    },
+    {
+      "tag":"D365 Business Central Consultant Qualification",
+      "patterns": ["D365 Business Central Consultant Qualification",
+          "What are the qualification needed for D365 Business Central Consultant?",
+          "Qualification needed for the D365 Business Central Consultant?",
+          "Minimum qualifications required for D365 Business Central?" 
+      ],
+      "responses": [
+          "For Microsoft Dynamic 365 Business Central Consultant candidate must have a CA Degree."
+      ]
+    },
+    {
+      "tag":"Business central project lead qualification",
+      "patterns": [
+          "What are the qualification needed for Business central project lead ?",
+          "Qualification needed for the Business central project lead ?",
+          "Minimum qualifications required for Business central project lead?"
+      ],
+      "responses": [
+          "For project lead for business central at intech systems candidate must have done: BE Mechanical/Civil/Electronics + Master’s degree/MBA"
+      ]
+    },
+    {
+      "tag":"Azure Data Analytics qualification",
+      "patterns": [
+          "What are the qualification needed for Azure Data Analytics?",
+          "Qualification needed for the Azure Data Analytics?",
+          "Minimum qualifications required for Azure Data Analytics?"
+      ],
+      "responses": [
+          "For Azure Data Analytics candidate must have done any of these : B. E, B. Tech, MCA, M. Tech, M.S"
+      ]
+    },
+    {
+      "tag":"technical consultant qualification",
+      "patterns": ["technical consultant qualification",
+          "What are the qualification needed for technical consultant?",
+          "Qualification needed for the technical consultant?",
+          "Minimum qualifications required for technical consultant?"
+      ],
+      "responses": [
+          "For Technical Consultant candidate must have done any of the following: B.E/B.tech(C.E/IT/CSE/EC/EE) or MCA"
+      ]
+    },
+    {
+      "tag":"Business Development Executive Qualification",
+      "patterns": [
+          "What are the qualification needed for Business Development Executive?",
+          "Qualification needed for the Business Development Executive?",
+          "Minimum qualifications required for Business Development Executive?",
+          "What are the qualification needed for BDE?",
+          "Qualification needed for the BDE?",
+          "Minimum qualifications required for BDE?"
+      ],
+      "responses": [
+          "For Business Development Executive(BDE) role candidate must have done MBA or PGDM in marketing, B.B.A, B.E/B.tech. with the knowledge of IT, Sales and Marketing"
+      ]
+    },
+    {
+      "tag":"Pre sales Executive Qualification",
+      "patterns": [
+          "What are the qualification needed for Pre sales Executive?",
+          "Qualification needed for the Pre sales Executive?",
+          "Minimum qualifications required for Pre sales Executive?"
+      ],
+      "responses": [
+          "For Pre sales Executive candidate must possess a degree in Computer Science, Engineering or a related fields."
+      ]
+    },
+    {
+      "tag":"Senior Marketing Executive Qualification",
+      "patterns": ["Senior Marketing Executive Qualification",
+          "What are the qualification needed for Senior Marketing Executive?",
+          "Qualification needed for the Senior Marketing Executive?",
+          "Minimum qualifications required for Pre sales Executive?"
+      ],
+      "responses": [
+          "For Senior Marketing Executive candidate must have done Bachelor's degree in business, marketing, communication or related field. MBA in marketing or equivalent."
+      ]
+    },
+    {
+      "tag":"products",
+      "patterns":[
+          "What are the products Intech is working on?",
+          "What are the products does Intech provides?",
+          "products",
+          "which technology are there",
+          "which technology you are working on",
+          "intech products",
+          "intech technologies","give me details of products of intech",
+          "give me details of products","want to know about products", "provide me information about products of intech"
+      ],
+      "responses":[
+                 "There are mainly three types, Intech is working on: <a href='https://intech-systems.com/products/dynamics-365/' target='_blank'>Microsoft Dynamics 365</a> \n <a href='https://intech-systems.com/products/power-platform/' target='_blank'>Microsoft Power Platforms</a>\n <a href='https://intech-systems.com/products/microsoft-azure/' target='_blank'>Microsoft Azure</a> "
+      ]                      
+  },
+  {
+      "tag":"Microsoft Dynamics 365",
+      "patterns":[
+          "What is Microsoft Dynamics 365",
+          "What is D365",
+          "Microsoft D365 ",
+          "D365","Dynamics 365","tell me about Dynamics 365",
+          "give me details of Dynamics 365","want to know about Dynamics 365",
+          "provide me information about Dynamics 365"
+      ],
+      "responses":[
+         " A group of intelligent business applications that integrates your every business process and delivers greater results by turning real-time data into predictive insights.Your end-to-end business applications on the cloud, combining ERP, CRM, and Business Intelligence on a single platform, enabling you to grow and evolve at your own pace. Integrating business applications, Power Platform (Power BI, Power Apps, Power Automate, and RPA), Office 365, and IoT services on one powerful platform of Azure cloud makes you ready for the future. for more information <a href='https://intech-systems.com/products/dynamics-365/' target='_blank'> click here</a>"
+      ]                      
+  },
+  {
+      "tag":"Microsoft Dynamics 365 products",
+      "patterns":[
+          "What are the products under Microsoft Dynamics 365",
+          "What are the products under D365",
+          "D365 products",
+          "Microsoft Dynamics 365 products",
+          "give me details of Dynamics 365 Microsoft Dynamics 365 products",
+          "tell me about Microsoft Dynamics 365 products",
+          "want to know about Microsoft Dynamics 365 products",
+          "provide me information about Microsoft Dynamics 365 products" 
+      ],
+      "responses":[
+          "The porducts under Microsoft Dynamics 365(D365) are: \n  Finance \n  Supply Chain Management \n Business Central \n Marketing \n Field Service \n Sales \n Commerce \n Customer Service \n Customer Insights \n  Project Operations \n Human Resources  )"
+      ]                      
+  },
+  {
+      "tag":"Microsoft Power Platform ",
+      "patterns":[
+          "What is Microsoft power platform",
+          "What is power platform",
+          "Microsoft power platform",
+          "Power platform","tell about power platform","give me details of Microsoft Power Platform",
+          "want to know about Microsoft Power Platform","provide me information about Microsoft Power Platform",
+          "give me details of Power Platform","tell me about Power Platform",
+          "want to know about Power Platform","provide me information about Power Platforms",
+          "power abc"," tell me about power abc","powerabc"
+      ],
+      "responses":[
+          "Microsoft Power Platform is a suite of low-code development tools that allows users to create custom business solutions quickly and easily, without needing extensive coding knowledge. for more informaton <a href='https://intech-systems.com/products/power-platform/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"Microsoft Power Platform products",
+      "patterns":[
+          "What are the products of Microsoft power platform",
+          "What are the products of power platform",
+          "Power platform porducts",
+          "Microsoft power platform products",
+          "list of power platform","which are power platform product",
+          "list of power plateform product","power abc products","list of power abc product",
+          "tell me about Power Platform products","give me details of Power Platform products",
+          "want to know about Power Platform products","provide me information about Power Platform products"
+
+      ],
+      "responses":[
+          "The products of power platforms are :\n Power BI \n Power Apps \n Power Automate\n Power Virtual Agent"
+      ]                      
+  },
+  {
+      "tag":"Microsoft Azure",
+      "patterns":[
+          "What is Microsoft Azure",
+          "What is Azure",
+          "Microsoft Azure","ms azure",
+          "Azure","give me details of Azure","tell about Azure",
+          "want to know about  Azure","provide me information about  Azure"
+          
+      ],
+      "responses":[
+          "Microsoft Azure is a cloud computing platform and set of services offered by Microsoft that provides businesses and organizations with a wide range of cloud-based computing resources, including virtual machines, storage, databases, analytics, machine learning, and more. Azure offers both infrastructure as a service (IaaS) and platform as a service (PaaS) capabilities, enabling organizations to run their applications and workloads in the cloud and access them from anywhere with an internet connection. for information <a href='https://intech-systems.com/products/microsoft-azure/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"Microsoft Azure products",
+      "patterns":[
+         "What are the products of Microsoft Azure",
+         "Microsoft Azure products",
+         "Azure products","give me details of Azure products",
+         "tell about Azure products","want to know about  Azure products","provide me information about  Azure products"
+      ],
+      "responses":[
+        "There are mainly four products of Microsoft azure: \n <a href='https://intech-systems.com/products/microsoft-azure/azure-active-directory/' target='_blank'>Azure Active Directory</a> \n <a href='https://intech-systems.com/products/microsoft-azure/backup-and-recovery-services/' target='_blank'>Backup and recovery Services</a> \n <a href='https://intech-systems.com/products/microsoft-azure/cloud-migration-services/' target='_blank'>Cloud migration Services</a> \n <a href='https://intech-systems.com/products/microsoft-azure/sap-on-azure/' target='_blank'>SAP on Azure</a> " 
+      ]                      
+  },
+  {
+      "tag":"D365 Finance",
+      "patterns":[
+         "What is D365 Finance?",
+         "Microsoft D365 Finance?","Microsoft Dynamics 365 Finance?",
+         "D365 Finance",
+         "Finance","tell me about finance","give me details of D365 Finance","want to know about D365 Finance",
+         "provide me information about D365 Finance"
+      ],
+      "responses":[
+        "Microsoft Dynamics 365 Finance is a cloud-based enterprise resource planning (ERP) solution designed to help organizations manage their financial operations, automate and streamline financial processes, and gain insights into their financial performance. It is a part of the larger Dynamics 365 suite of business applications offered by Microsoft. for more information <a href='https://intech-systems.com/products/dynamics-365/finance/' target='_blank'>click here</a> "
+      ]                      
+  },
+  {
+      "tag":"D365 Supply Chain management",
+      "patterns":[
+        "supply chain",
+        "What is D365 Supply Chain management?",
+        "D365 Supply Chain management",
+        "What is Supply Chain management",
+        "Supply Chain management",
+        "tell about Supply Chain", "give me details of Supply Chain management",
+        "want to know about Supply Chain management","provide me information about Supply Chain management"
+      ],
+      "responses":[
+         "Streamline manufacturing and distribution processes with real-time planning, connected factory operations, and optimised visibility into stock with Dynamics 365 Supply Chain Management. Ensure on-time delivery, optimal use of resources, and business continuity while staying profitable with an agile supply chain. for more information <a href='https://intech-systems.com/products/dynamics-365/supply-chain-management/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"D365 Business Central",
+      "patterns":[
+          "What is D365 Business central","What is D365 bc",
+          "What is bc",
+          "What is Business central",
+          "Business Central",
+          "D365 business central","Dynamics 365 Business central","Dynamics 365 Business Central",
+          "give me details of Business Central","tell me about Business Central",
+          "want to know about Business Central","provide me information about Business Central","bc"
+      ],
+      "responses":[
+         "Microsoft Dynamics 365 Business Central (BC) is a cloud-based enterprise resource planning (ERP) solution designed for small and medium-sized businesses (SMBs). It provides businesses with a unified platform for managing their financials, operations, sales, and customer service. Business Central is a part of the larger Dynamics 365 suite of business applications offered by Microsoft. for mor information<a href='https://intech-systems.com/products/dynamics-365/business-central/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"D365 Customer Service",
+      "patterns":[
+          "What is D365 Customer Service",
+          "D365 Customer Service", " dynamics 365 Customer Service",
+          "Customer Service","give me details of Customer Service",
+          "tell about Customer Service","want to know about Customer Service",
+          "provide me information about Customer Service"
+      ],
+      "responses":[
+          "Microsoft Dynamics 365 Customer Service is a cloud-based customer relationship management (CRM) solution designed to help organizations manage their customer interactions and provide a consistent, personalized customer experience across all touchpoints. It is a part of the larger Dynamics 365 suite of business applications offered by Microsoft.for more information<a href='https://intech-systems.com/products/dynamics-365/customer-service/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"D365 Project operation",
+      "patterns":[
+         "What is D365 Project operation",
+         "D365 project operation",
+         "Project operation","dynamics 365 Project operation",
+         "tell me about Project operation","give me details of Project operation",
+         "want to know about Project operation","provide me information about Project operation"
+      ],
+      "responses":[
+         "Microsoft Dynamics 365 Project Operations is a cloud-based solution that provides a unified platform for project management, sales, resourcing, and finance for project-based organizations. It is designed to help organizations streamline their project processes, manage their resources effectively, and optimize their project profitability. Project Operations is a part of the larger Dynamics 365 suite of business applications offered by Microsoft.for more information<a href='https://intech-systems.com/products/dynamics-365/project-operations/' target='_blank'>click here</a> "
+      ]                      
+  },
+  {
+      "tag":"D365 marketing",
+      "patterns":[
+         "What is D365 marketing","Dynamics 365 marketing",
+         "D365 marketing","marketing",
+         "Marketing","tell about Azure marketing","give me details of marketing",
+         "want to know about marketing","provide me information about marketing"            
+      ],
+      "responses":[
+          "Microsoft Dynamics 365 Marketing is a cloud-based marketing automation solution designed to help organizations automate their marketing processes, generate and nurture leads, and improve their overall marketing performance. It is a part of the larger Dynamics 365 suite of business applications offered by Microsoft.for more information<a href='https://intech-systems.com/products/dynamics-365/marketing/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"D365 Field Service",
+      "patterns":[
+          "What is D365 field service",
+          "D365 field service",
+          "Field service"," Field service Dynamics 365",
+          "give me details of Field service","tell about Field service",
+          "want to know about Field service","provide me information about Field service"  
+      ],
+      "responses":[
+         "Microsoft Dynamics 365 Field Service is a cloud-based solution designed to help organizations manage their field service operations, from scheduling and dispatching to work order management and asset tracking. It is a part of the larger Dynamics 365 suite of business applications offered by Microsoft.for more information<a href='https://intech-systems.com/products/dynamics-365/field-service/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"D365 Sales",
+      "patterns":[
+         "What is D365 Sales?",
+         "D365 sales","Dynamics 365 sales",
+         "Sales"
+      ],
+      "responses":[
+         "Dynamics 365 Sales is a cloud-based software application from Microsoft that helps organizations manage their sales processes. It provides tools and features to manage leads, opportunities, contacts, accounts, and sales data, enabling sales teams to track their progress and work more efficiently.for more information<a href='https://intech-systems.com/products/dynamics-365/sales/' target='_blank'>click here</a>"   
+      ]                      
+  },
+  {
+      "tag":"D365 human resources",
+      "patterns":[
+           "What is D365 human resources?",
+           "D365 human resources?",
+           "Human resources","give me details of D365 human resources",
+           "tell about D365 human resources","want to know about D365 human resources",
+           "provide me information about D365 human resources"
+      ],
+      "responses":[
+          "Take better care of your teams with Dynamics 365 Human Resources. With people-first processes and data-driven growth, optimise HR programmes and centralise your employees’ data to discover insights that optimise organizational agility.\n for more information<a href='https://intech-systems.com/products/dynamics-365/human-resources/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"D365 Commerce",
+      "patterns":[
+         "What is D365 Commerce?",
+         "D365 Commerce",
+         "Commerce","Dynamics 365 commerce","give me details of Commerce",
+         "tell me about Commerce","want to know about Commerce","provide me information about Commerce"
+      ],
+      "responses":[
+         "Deliver exceptional retail shopping experiences across physical and digital channels with Dynamics 365 Commerce. Engage with customers at every level to foster lasting relationships and create personalised experiences using AL and machine learning capabilities. \n for more information<a href='https://intech-systems.com/products/dynamics-365/commerce/' target='_blank'>click here</a>"
+      ]                      
+  },
+  {
+      "tag":"Power BI",
+      "patterns":[
+          "tell about power bi",
+          "powerbi",
+          "what is powerbi",
+          "What is Power BI?",
+          "Power BI","give me details of Power BI","tell me about Power BI",
+          "want to know about Power BI","provide me information about Power BI"
+      ],
+      "responses":[
+         "With Power BI, a cloud-based business intelligence platform, you can easily and quickly create self-service BI dashboards, reports, datasets, and visualizations. Connect to many different data sources, pool and shape data from those connections, then create reports and dashboards that can be shared with others. \n for more information<a href='https://intech-systems.com/products/power-platform/power-bi/' target='_blank'>click here</a> "
+      ]                      
+  },
+  {
+      "tag":"Power Apps",
+      "patterns":[
+          "What is power apps",
+          "Power apps",
+          "powerapps",
+          "tell me about power apps",
+          "information about power apps","give me details of power apps",
+          "want to know about power apps","provide me information about power apps"
+      ],
+      "responses":[
+         "Power suite of low Apps is a-code and no-code application development tools offered by Microsoft. With Power Apps, users can create custom business applications quickly and easily without the need for extensive coding skills. Power Apps allows users to connect to various data sources, including Microsoft 365, Dynamics 365, Azure, SharePoint, and many others.\n for more information<a href='https://intech-systems.com/products/power-platform/power-apps/' target='_blank'>click here</a>           "
+      ]                      
+  },
+  {
+      "tag":"contact" ,
+      "patterns": [
+      "how can i contact you?",
+      "how can i contact intech? ",
+      "contact details",
+      "phone no",
+      "phone number",
+      "contact number","give me your contact","provide me your contact details",
+      "contact ", "give me your contact details"
+      ],
+      "responses": [" You can contact us: \n+91 79-6611-8960 (India), \n+1-607-821-2964 (USA). \n or mail on sales@intech-systems.com" 
+      ]
+    },
+    {
+      "tag":"email" ,
+      "patterns": [
+      "how can i email you?",
+      "how can i email intech? ",
+      "email details",
+      "sales email", 
+      "sales mail",
+      "give me your email",
+      "how can i mail you?"
+      ],
+      "responses": [" You can email on sales@intech-systems.com" 
+      ]
+    },
+    {
+      "tag":"headquarter",
+      "patterns": [         
+          "headquater of intech",
+          "headquarter","main branch","main office",
+          "headquarter location","head office address",
+          "head office","give me location of head office","want to know about your headquater office location"
+      ],
+      "responses": [
+          "Our headquarter is at Ahmedabad\n Location: 301 Brooklyn Tower, Near YMCA Club, SG Highway, Makarba, Ahmedabad - 380 051, Gujarat, India"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is location of intech?",
+        "location ",
+        "your location",
+        "office address",
+        "address"," location branches",
+        "intech address",
+        "office","give me your location details","provide me your location details",
+        "workplace",
+        "intech offices", "how many branches you have"
+      ],
+      "responses": [
+        "There are four location of intech systems.\nAhmedabad \nVadodara\nMumbai \nUSA\nWhich location do you want?"
+      ]
+    },
+     {
+      "tag": "ahmedabad",
+      "patterns": [
+      "ahmedabad location",
+      "ahmedabad",
+      "ahmedabad branches",
+      "ahmedabad address",
+      "ahmedabad work place",
+      "can you give me ahmedabad location?",
+      "can you give me ahmedabad address?",
+      "intech ahmedabad location",
+      "intech ahmedabad address",
+      "intech ahmedabad workplace",
+      "ahemedabad"
+      ],
+      "responses": ["Address for our Ahmedabad location is 301 Brooklyn Tower, Near YMCA Club, SG Highway, Makarba, Ahmedabad - 380 051, Gujarat, India"
+        
+      ]
+    },
+    {
+      "tag": "vadodara",
+      "patterns": [
+      "vadodara",
+      "vadodara address",
+      "vadodara work place",
+      "intech vadodara location",
+      "intech vadodara workplace",
+      "intech vadodara address",
+      "vadodara branches","baroda","vadodara"
+      ],
+      "responses": ["Address for our Vadodara location isIncuspaze:- 3rd floor, 1965, Alembic City, Alembic Rd, Gorwa, Vadodara, Gujarat 390003"
+        
+      ]
+    },
+    {
+      "tag":"mumbai" ,
+      "patterns": ["mumbai location",
+      "mumbai",
+      "bombay",
+      "mumbai branches",
+      "mumbai address",
+      "mumbai work place",
+      "can you give me mumbai location?",
+      "can you give me mumbai address?",
+      "intech mumbai location",
+      "intech mumbai address",
+      "intech mumbai workplace"   
+      ],
+      "responses": ["Address for our Mumbai location is Incuspaze:- 203 Akriti Star Building, MIDC Central Road, Andheri East, Mumbai"
+        
+      ]
+    },
+    {
+      "tag": "usa",
+      "patterns": ["USA location",
+      "USA",
+      "usa",
+      "USA address",
+      "USA work place",
+      "can you give me USA location?",
+      "can you give me USA address?",
+      "intech USA location",
+      "intech USA address",
+      "intech USA workplace",
+      "International office",
+      "International location",
+      "America",
+      "United States of America",
+      "Newyork address"
+      
+      ],
+      "responses": ["Address for our New York location is75 Maiden Lane, Suite 204, New York City, New York - 10038. contact:+1-607-821-2964"
+        
+      ]
+    },
+    {
+      "tag": "sales inquiry",
+      "patterns": [
+      "sales inquiry",
+      "how can i get in touch with sales team ",
+      "sales team contact",
+      "sales contact"
+      ],
+      "responses": ["For sales inquiry follow:\n <a href=' https://intech-systems.com/contact-us/#get-in-touch' target='_blank'>sales inquiry</a>"]
+    },
+    {
+      "tag":"Help Support" ,
+      "patterns": ["where is Help & Support?",
+      "link for customer support",
+      "client login",
+      "support login", "nav","nav portal", "support center home", "support portal"
+      ],
+      "responses": [" You can login through our support portal: \n <a href=' https://support.intech-systems.com/login.php' target='_blank'>Help Support</a>"
+        
+      ]
+    },
+    {
+      "tag":"intech" ,
+      "patterns": [
+      "what is intech system",
+      "which kind of work do intech system ",
+      "intech system",
+      "intech","give me details of your company",
+      "tell me about intech systems"
+      ],
+      "responses": ["Intech Systems is a Microsoft Dynamics Partner in India with Gold competency. Intech's core offerings, which are aimed at delivering transformative technology solutions, include - Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Azure Cloud and Power BI."
+        
+      ]
+    },
+    {
+      "tag": "facebook",
+      "patterns": [
+      "facebook id",
+      "facebook link",
+      "facebook of intech",
+      "what is facebook id of intech",
+      "facebook",
+      "facebook account",
+      " facebook account of intech",
+      "tell me about facebook account of intech"
+      ],
+      "responses": ["Facebook:\n <a href='https://www.facebook.com/IntechSystems1/' target='_blank'>Facebook</a>"
+        
+      ]
+    },
+    {
+      "tag": "twitter",
+      "patterns": [
+      "twitter id",
+      "twitter link",
+      "twitter of intech","twitter account of intech",
+      "what is twitter id of intech",
+      "twitter",
+      "twitter account",
+      "twitter account of intech",
+      "tell me about twitter account of intech"
+      ],
+      "responses": ["Twitter:\n <br><a href='https://twitter.com/IntechSystems' target='_blank'>Twitter</a></br>"
+        
+      ]
+    },
+    {
+      "tag":"linkedin" ,
+      "patterns": [
+      "linkedin link",
+      "linkedin profile",
+      "linkedin of intech",
+      "linkedin account of intech",
+      "what is intech linkedin profile",
+      "give link for linkedin",
+      "linkedin",
+      "linkedin account",
+      "linkdin", 
+      "linkedin account of intech",
+      "tell me about linkedin account of intech"     
+      ],
+      "responses": [ "Linkedin:\n <a href='https://www.linkedin.com/company/intech-systems/' target='_blank'>Linkedin</a>"
+        
+      ]
+    },
+    {
+      "tag": "youtube" ,
+      "patterns": [
+      "youtube link",
+      "youtube of intech",
+      "youtube channel",
+      "youtube",
+      " youtube channel of intech",
+      "tell me about youtube channel of intech"
+      ],
+      "responses": ["Youtube:\n <a href=' https://www.youtube.com/channel/UCgXn3Ea8UsiavDGShEK6rRA' target='_blank'>Youtube</a>"
+        
+      ]
+    },
+    {
+      "tag": "business apps",
+      "patterns": [
+      "what is business apps",
+      "business app Portfolio ",
+      "business app solution",
+      "business app",
+      "want to know about business apps"
+      ],
+      "responses": ["Microsoft Business Apps work with the products you already use and make your business solution tailored to your industry. These Apps add new capabilities to your existing business applications – from Dynamics to Power BI. Intech has developed these business apps to help you do more with your existing solution. Find out more on link:\n <a href='https://intech-systems.com/business-apps/' target='_blank'>Business apps</a>"
+        
+      ]
+    },
+    {
+      "tag": "intech solution",
+      "patterns": [
+      "intech solution",
+      "link for portfolio of intech",
+      "portfolio",
+      "intech portfolio",
+      "where is your portfolio",
+      "your portfolio","give me details of portfolio",
+      "your solutions", "provide me your solutions", "want to see your solutions"
+      ],
+      "responses": ["At intech we provide tailored business solutions as per your needs. Find out more on\n <a href='https://intech-systems.com/intech-solutions/' target='_blank'>Intech Solution</a>"
+        
+      ]
+    },
+    {
+      "tag": "Ecommerce Portal",
+      "patterns": [
+      "Ecommerce Portal",
+      "what is ecommerce portal",
+      "link for ecommerce portal","give me details of Ecommerce Portal",
+      "portfolio of Ecommerce Portal","Ecommerce Portal solution","tell me about Ecommerce Portal",
+      "want to know about Ecommerce Portal","provide me information about Ecommerce Portal"
+      ],
+      "responses": ["Its An end-to-end real-time web store that works on your ERP data. There are three types B2B, B2C and D2C for more details:\n <a href='https://intech-systems.com/intech-solutions/ecommerce/' target='_blank'>Ecommerce Portal</a>"
+        
+      ]
+    },
+    {
+      "tag": "Features of ecommerce portal",
+      "patterns": [
+      "Why choose Intech's e-commerce solution?",
+      "features of ecommerce portal",
+      "ecommerce features"
+      ],
+      "responses": ["\nMulti-site, Multi-store Support \n-Integrated tax structure across ERP and e-commerce portal \n-Payment processing with major payment gateways \n-Cloud hosting on Azure, IBM Cloud, or AWS \n-Flexible and customized pricing for different customers \n-Real-time business, product, and client data \n-Integration with SMS and WhatsApp"
+        
+      ]
+    },
+    {
+      "tag": "B2B e-commerce",
+      "patterns": [
+      "what is B2B",
+      "what is Business to business",
+      "B2B e-commerce","b to b",
+      "feactures of b2b",
+      "benefits of b2b"
+      ],
+      "responses": ["Simplify the B2B buying process with our all-inclusive e-commerce platform. Reduce technical and operational costs \n-Offer 24/7 order capabilities \n-Get real-time inventory data-Simplify order and product information\n-Manage multiple customer roles and authorization levels"
+        
+      ]
+    },
+    {
+      "tag": "B2C e-commerce",
+      "patterns": [
+      "what is B2C",
+      "what is B to c",
+      "what is business to customer",
+      "feactures of b2b",
+      "benefits of b2c",
+      "B2C e-commerce",
+      "B2C ecommerce",
+      "B2C e commerce"  
+      ],
+      "responses": ["Offer personalized shopping experiences with our B2C e-commerce solution \nDeliver an omnichannel shopping experience \nTrack shipments and payments \nShare order details with customers \nManage and create targeted marketing content and campaigns \nOffer strong SEO capabilities"
+        
+      ]
+    },
+    {
+      "tag":"D2C e-commerce" ,
+      "patterns": [
+      "feactures of d2c",
+      "benefits of d2c",
+      "D2C benefits ",
+      "D2C e-commerce",
+      "D2C e commerce"
+      ],
+      "responses": ["Ensure better customer engagement with our D2C e-commerce platform \nGet direct access to your customers data \nGet more control over your brand \nReduce operational costs \nAccelerate sales cycle and revenue growth \nOffer comprehensive and customized pricing \nOffer benefits of B2B and B2C e-commerce in one"
+        
+      ]
+    },
+    {
+      "tag": "Key functionalities of Customer-Vendor Portal" ,
+      "patterns": [
+      "what is Key functionalities of Customer-Vendor Portal",
+      "Key functionalities of Customer-Vendor Portal"
+        
+      ],
+      "responses": ["Get summarized account information \nUpload and download order\nrelated documents \nCreate dashboards and reports \nIntegrate with Dynamics 365 Business Central and NAV \nSend important notifications and reminders \nGet historical customer order details \nFor more details:<a href=' https://intech-systems.com/intech-solutions/customer-vendor-portal/' target='_blank'> Customer Vendor Portal</a>"
+        
+      ]
+    },
+    {
+      "tag": "Customer Vendor Portal",
+      "patterns": [
+      "Customer Vendor Portal",
+      "what is Customer Vendor Portal",
+      "give me details of Customer Vendor Portal","portfolio of Customer Vendor Portal",
+      "Solution for Customer Vendor Portal", "tell me about Customer Vendor Portal",
+      "want to know about Customer Vendor Portal","provide me information about Customer Vendor Portal"
+      ],
+      "responses": ["Customer Vendor Portal is a collaborative platform for your customers and vendors. For more details you can visit here :<a href=' https://intech-systems.com/intech-solutions/customer-vendor-portal/' target='_blank'> Customer Vendor Portal</a>"
+        
+      ]
+    },
+    {
+      "tag":"Sales & Service for Manufacturing" ,
+      "patterns": [
+      "what is sales and service  for manufacturing?",
+      "Sales & Service for Manufacturing",
+      "Sales and  services",
+      "give me details of Azure products sales and service  for manufacturing",
+      "tell me about sales and service  for manufacturing",
+      "solution of sales and service  for manufacturing",
+      "portfolio sales and service  for manufacturing"
+      ],
+      "responses": ["It's An enhanced CRM app for manufacturing industry. Manufacturing companies tend to focus mainly on production, distribution, and supply chain. So, a CRM software for manufacturing industry often gets overlooked. for more information \n <a href='https://intech-systems.com/intech-solutions/sales-service-for-manufacturing/' target='_blank'>Sales & Service for Manufacturing</a>"
+        
+      ]
+    },
+    {
+      "tag": "DynaEquip",
+      "patterns": [
+      "what is DynaEquip",
+      "dynaeuip", "give me details of dynaeuip","tell me about dynaeuip",
+      "want to know about dynaeuip","solution os dynaeuip","portfolio dynaeuip", "provide me information about dynaeuip"
+        
+      ],
+      "responses": ["DynaEquip is a tailored business solution for Equipment Industry.For more details you can visit us at:- \n <a href='https://intech-systems.com/intech-solutions/dynaequip/' target='_blank'>Dynaequip</a>"
+        
+      ]
+    },
+    {
+      "tag":"Product Configurator" ,
+      "patterns": [
+        "Product Configurator",
+        "what is Product Configurator",
+        "tell me about Product Configurator","give me details of Product Configurator",
+        "want to know about Product Configurator","provide me information about Product Configurator",
+        "portfolio Product Configurator",
+        "solution of Product Configurator"
+        
+      ],
+      "responses": [" Product Configurator is a Customizing a product to meet the needs of a customer based on Pre-devised set of options.For more details you can visit us at:- <a href='https://intech-systems.com/intech-solutions/product-configurator/' target='_blank'>Product Configurator</a>"
+        
+      ]
+    },
+    {
+      "tag": "EXIM",
+      "patterns": [
+      "EXIM",
+      "what is exim",
+      "tell me about exim", "give me details of exim","want to know about exim","provide me information about exim"
+      ,"solution of exim","exim portfolio"
+        
+      ],
+      "responses": ["Export Import (EXIM) fr Service Industry covers functionality related to managing, tracking, and complying with the EXIM functions as per Service Export from India Scheme (SEIS) under by the Government of India. For more details you can visit us at:- <a href='https://intech-systems.com/intech-solutions/exim/' target='_blank'>EXIM</a>"
+        
+      ]
+    },
+    {
+      "tag":"Weigh Scale Integration" ,
+      "patterns": [
+      "Weigh Scale Integration",
+      "tell me about Weigh Scale Integration",
+      "what is Weigh Scale Integration","give me details of Weigh Scale Integration",
+      "portfolio Weigh Scale Integration","solution of Weigh Scale Integration","tell me about Weigh Scale Integration",
+      "want to know about Weigh Scale Integration","provide me information about Weigh Scale Integration"
+        
+      ],
+      "responses": ["Weight Scale Integration is the record of the weight of the material with accuracy.For more details you can visit us at:- <a href='https://intech-systems.com/intech-solutions/weigh-scale-integration/' target='_blank'>Weigh Scale Integration</a>"
+        
+      ]
+    },
+    {
+      "tag":"Advanced Quality Module",
+      "patterns": [
+      "Advanced Quality Module",
+      "tell me about Advanced Quality Module",
+      "what is Advanced Quality Module","solution of Advanced Quality Module","portfolio of Advanced Quality Module"
+      ,"give me details of Advanced Quality Module","want to know about Advanced Quality Module",
+      "provide me information about Advanced Quality Module"
+        
+      ],
+      "responses": ["Manage advanced quality controls across your entire organization. Businesses need to perform quality controls on their products and define flexible rules to ensure quality checks across different processes and stages. This allows them to take corrective actions and manage non-conforming materials or quality standards. For more details you can visit us at:-\n <a href='https://intech-systems.com/intech-solutions/advanced-quality-module/' target='_blank'>Advance Quality Module</a>"
+        
+      ]
+    },
+    {
+      "tag": "Complaint Tracker",
+      "patterns": [
+      "Complaint Tracker",
+      "what is Complaint Tracker",
+      "tell me about Complaint Tracker","give me details of Complaint Tracker",
+      "want to know about Complaint Tracker","provide me information about Complaint Tracker",
+      "solution of Complaint Tracker",
+      "portfolio of Complaint Tracker"
+        
+      ],
+      "responses": ["Track and automate your Customer's Complaint Requests.For more details you can visit us at:- <a href='https://intech-systems.com/intech-solutions/complaint-tracker/' target='_blank'>Complaint Tracker</a>"
+        
+      ]
+    },
+    {
+      "tag":"careers" ,
+      "patterns": [
+      "careers",
+      "intech career","career options",
+      "career at intech","show me career option","tell me about career",
+      "give me details of career", "is there ay career options"
+      ],
+      "responses": ["Career at intech: \nProject Lead - Business Central (Functional) \n SharePoint Developer \n Dynamics 365 Project Operations Functional Consultant\n DotNet Lead\n D365 Finance Consultant\n Microsoft Azure Security\n Microsoft Azure IaaS Cloud Operations Engineer\n Azure Technical Lead\n Azure Data Analytics\n Project Lead - CRM\n For more info contact to our recruitment team"
+        
+      ]
+    },
+    {
+      "tag": "Case Studies",
+      "patterns": [
+        "Case Studies", "show me case studies", "want to know about Case Studies","case study"
+      ],
+      "responses": ["There are many Case Studies of technology trends, insights, success stories and other helpful resources.\n <a href='https://intech-systems.com/resources/case-studies/' target='_blank'>Case Studies</a>"
+        
+      ]
+    },
+    {
+      "tag": "Brochures",
+      "patterns": [
+      "Brochures",
+      "Brochures link"
+        
+      ],
+      "responses": ["For Brochures click here: <a href='https://intech-systems.com/resources/brochures/' target='_blank'>Brouchers </a>"
+        
+      ]
+    },
+    {
+      "tag": "Rapid Implementation Navision Brochures",
+      "patterns": [
+      "Rapid Implementation Navision Brochures",
+      "Rapid Implementation Navision Brochures link"," Navision Brochures link"," Navision Brochures link"
+        
+      ],
+      "responses": ["for Rapid Implementation Navision Brochures you can visit us at:-\n <a href='https://intech-systems.com/wp-content/uploads/2021/05/Rapid-Implementation-Navision.pdf' target='_blank'>click here</a>"
+        
+      ]
+    },
+    {
+      "tag": "Rapid Implementation Business Central Brochures",
+      "patterns": [
+      "Rapid Implementation Business Central Brochures",
+      "Rapid Implementation Business Central Brochures link","Business Central Brochures",
+      " Business Central Brochures link"
+        
+      ],
+      "responses": ["For Rapid Implementation Business Central Brochures you can visit us at:-'\n <a href='https://intech-systems.com/wp-content/uploads/2021/05/rapid-implementation-business-central_change_meta.pdf' target='_blank'>click here </a>"    
+      ]
+    },
+    {
+      "tag": "Solution for Packaging Industry Brochures",
+      "patterns": [
+      "Solution for Packaging Industry Brochures",
+      " Solution for Packaging IndustryBrochures link","Solution for Packaging Industry"
+        
+      ],
+      "responses": ["For Solution for Packaging Industry Brochures you can visit us at:- <a href='https://intech-systems.com/wp-content/uploads/2021/05/Solution-for-Packaging-Industry.pdf' target='_blank'>Brouchers </a>"
+      ]
+    },
+    {
+      "tag": " Solution for Manufacturing Industry Brochures",
+      "patterns": [
+      "Solution for Manufacturing Industry Brochures",
+      "Solution for Manufacturing Industry Brochures link",
+      "Manufacturing Industry Brochures"
+        
+      ],
+      "responses": ["For Solution for Manufacturing Industry Brochures you can visit us at:- <a href='https://intech-systems.com/wp-content/uploads/2021/05/Solution-for-Manufacturing-Industry-scaled.jpg' target='_blank'>click here </a>"    
+      ]
+    },
+    {
+      "tag": " Sales and Service for Manufacturing Brochures",
+      "patterns": [
+      "Sales and Service for Manufacturing Brochures",
+      "Sales and Service for Manufacturing Brochures link",
+      "sales and Service Brochures"
+        
+      ],
+      "responses": ["For Sales and Service for Manufacturing Brochures you can visit us at:- <a href='Sales and Service for Manufacturing Brochures' target='_blank'>click here </a>"    
+      ]
+    },
+
+    {
+      "tag": "Blogs",
+      "patterns": [
+      "Blogs",
+      "link for Blogs",
+      "intech blogs",
+      "share your Blogs", "tell me about blog"," i want to see your blogs"
+        
+      ],
+      "responses": ["For our blogs you can visitus at:- <a href='https://intech-systems.com/blog/' target='_blank'>Blogs</a>"
+        
+      ]
+    },
+    {
+      "tag": "Power Automate",
+      "patterns": [
+      "Power Automate"
+      ,"what is Power Automate","give me details of Power Automate ",
+      "tell me about Power Automate","want to know about Power Automate"
+        
+      ],
+      "responses": ["Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. \n for more information<a href='https://intech-systems.com/products/power-platform/power-automate/' target='_blank'>click here</a>     "
+        
+      ]
+    },
+    {
+      "tag":"Power Virtual Agents" ,
+      "patterns": [
+      "what is Power Virtual Agents",
+      "Power Virtual Agents", "tell me about Power Virtual Agents",
+      "give me details of Power Virtual Agents","want to know about Power Virtual Agents",
+      "provide me information about Power Virtual Agents"
+        
+      ],
+      "responses": ["Power Virtual Agents is a no-code, guided graphical interface solution that empowers every member of your team to create rich, conversational chatbots that easily integrate with the Teams platform. \n for more information<a href='https://intech-systems.com/products/power-platform/power-virtual-agents/' target='_blank'>click here</a> "
+        
+      ]
+    },
+    {
+      "tag": "Azure Active Directory",
+      "patterns": [
+      "Azure Active Directory",
+      "what is Azure Active Directory","give me details of Azure Active Directory",
+      "tell me about Azure Active Directory","want to know about Azure Active Directory",
+      "provide me information about Azure Active Directory"
+        
+      ],
+      "responses": ["Azure Active Directory is a multi-tenant, cloud-based identity and access management (IAM) solution that helps employees sign up to and access multiple services from anywhere with a single set of login credentials. \n for more information<a href='https://intech-systems.com/products/microsoft-azure/azure-active-directory/' target='_blank'>click here</a>"
+        
+      ]
+    },
+    {
+      "tag":"Azure Backup" ,
+      "patterns": [
+        "Azure Backup",
+        "information about Azure Backup","tell me about Azure Backup",
+        "give me details of Azure Backup","want to know about Azure Backup",
+        "provide me information about Azure Backup"
+      ],
+      "responses": ["Backup and restore a wide range of enterprise workloads including VMs, Azure file shares, SQL and SAP HANA and Oracle databases, and Azure Database for PostgreSQL in locally redundant (LRS), geo-redundant(GRS), and zone-redundant storage (ZRS) with the centralized management interface.\n for more information<a href='https://intech-systems.com/products/microsoft-azure/backup-and-recovery-services/' target='_blank'>click here</a>"
+      
+        
+      ]
+    },
+    {
+      "tag":"Azure Site Recovery" ,
+      "patterns": [ 
+      "Azure Site Recovery","give me details of Azure Site Recovery","tell me about Azure Site Recovery",
+      "what is Azure Site Recovery","provide me information about Azure Site Recovery","want to know about Azure Site Recovery"
+        
+      ],
+      "responses": ["Deploy replication, failover, and recovery processes to help keep your applications running during planned and unplanned outages and minimize downtime through Site Recovery, a native disaster recovery as a service (DRaaS) and reduce the cost of deploying, monitoring, patching, and maintaining on-premises DR infrastructure.\n for more information<a href='https://intech-systems.com/products/microsoft-azure/backup-and-recovery-services/' target='_blank'>click here</a>"
+        
+      ]
+    },
+    {
+      "tag": "Cloud migration",
+      "patterns": [
+        "Cloud migration",
+        "what is Cloud migration","give me details of Cloud migration","tell me about Cloud migration",
+        "want to know about Cloud migration","provide me information about Cloud migration"
+      ],
+      "responses": ["Cloud migration is the process of moving a company's digital assets, services, databases, IT resources, and applications either partially, or wholly, into the cloud. \n for more information<a href='https://intech-systems.com/products/microsoft-azure/cloud-migration-services/' target='_blank'>click here</a>"
+        
+      ]
+    },
+    {
+      "tag": "SAP on Azure",
+      "patterns": [
+      "SAP on Azure",
+      "what is SAP on Azure","give me details of SAP on Azure","tell me about SAP on Azure",
+      "want to know about SAP on Azure","provide me information about SAP on Azure"
+        ,"sap","sap on"
+      ],
+      "responses": ["SAP on Azure solutions help you optimise your enterprise resource planning (ERP) in the cloud using the security features, reliability and scalable SAP-certified infrastructure of Azure. <a href='https://intech-systems.com/products/microsoft-azure/sap-on-azure/' target='_blank'>click here</a>"
+        
+      ]
+    },
+    {
+      "tag": "instagram" ,
+      "patterns": [
+      "instagram id",
+      "instagram of intech",
+      "instagram",
+      "intech instagram",
+      "insta id",
+      "instagram account",
+      "insta id of intech",
+      "instagram account of intech"
+        
+      ],
+      "responses": ["Instagram:\n <a href='https://instagram.com/intech_systems?igshid=YmMyMTA2M2Y=' target='_blank'>Instagram</a>"
+        
+      ]
+    },
+    {
+      "tag": "Create Business Central Free Trial Account",
+      "patterns": ["business central free trial account",
+      "any Business Central Free Trial Account",
+      "are you provide any Business Central Free Trial Account",
+      "where is Business Central Free Trial Account link",
+      "BC free trial account"
+      ],
+      "responses": ["For Create Business Central Free Trial Account you can visit us at:-\n <a href='https://signup.microsoft.com/create-account/signup?sku=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ru=https:%2F%2Fbusinesscentral.dynamics.com%3FredirectedFromSignup%3D1&products=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ali=1' target='_blank'>Create Business Central Free Trial Account</a>"
+        
+      ]
+    },
+    {
+      "tag": "Create Microsoft Dynamics 365 Free Trial Account",
+      "patterns": ["Microsoft Dynamics 365 free trial account",
+      "any Microsoft Dynamics 365 Free Trial Account",
+      "are you provide any Microsoft Dynamics 365 Free Trial Account",
+      "where is Microsoft Dynamics 365 Free Trial Account link"
+        
+      ],
+      "responses": ["For Create Microsoft Dynamics 365 Free Trial Account you can visit us at:-\n <a href='https://dynamics.microsoft.com/en-us/dynamics-365-free-trial/' target='_blank'>Create Microsoft Dynamics 365 Free Trial Account</a>"
+        
+      ]
+    },
+    {
+      "tag":"recruitment contact",
+      "patterns":[  
+        "Reqruitment contact",
+        "contact details of recruitment team",
+        "reqruitment team contact",
+        "recruitment","give me Reqruitment contact "
+      ],
+      "responses":[
+        "You can Contact Recruitment team at :-\n recruitment@intech-systems.com"
+      ]
+    },
+    {
+      "tag":"Employees",
+      "patterns":[
+          "employee size",
+          "no of employees in the company",
+          "no of employees",
+          "company size",
+          "employees in intech"
+      ],
+      "responses":[
+          "At Intech Systems, we are a family of over 350+ individuals working together towards our common goals."
+          
+      ]
+    },
+    {
+      "tag": "powerbi guide",
+      "patterns": ["power bi guide"
+        
+      ],
+      "responses": ["For Power bi guide you can visit us at:-: <a href='https://intech-systems.com/wp-content/uploads/2021/05/PowerBI-Guide.pdf' target='_blank'>PowerBI Guide</a>"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": ["news section",
+      "news of intech",
+      "any updates",
+      "any new news?", 
+      "updates ", 
+      "give me updates"
+        
+      ],
+      "responses": ["For news and updates you can visit us at:- <a href='https://intech-systems.com/resources/news-events/' target='_blank'>News Section</a>"
+      ]
+    },
+    {
+      "tag": "newsletters",
+      "patterns": ["newsletters section",
+      "newsletter",
+      "link for news letter"
+        
+      ],
+      "responses": ["For newsletters you can visit us at:- <a href='https://intech-systems.com/resources/newsletters/' target='_blank'>Newsletters</a>"
+      ]
+    },
+    {
+      "tag": "event",
+      "patterns": ["event",
+      "any upcoming event",
+      "tell me about intech events",
+      "any new event there"
+        
+      ],
+      "responses": ["For upcoming event and updates you can visit us at:- <a href='https://intech-systems.com/upcoming-events/' target='_blank'>Upcoming Events</a>"
+      ]
+    },
+    {
+      "tag": "awards and recognitions",
+      "patterns": [" awards and recognitions",
+      "award"
+        
+      ],
+      "responses": [" We proud to be recognized by some of the most valuable and influential publications and organizations around the world. For more click here: <a href='https://intech-systems.com/awards-and-recognitions/' target='_blank'>Awards and Recognition</a>"
+      ]
+    },
+    {
+      "tag": "Chairman",
+      "patterns": ["who is Chairman of intech?",
+      "who is Ashok Mehta",
+      "who is founder of intech?",
+      "Chairman of Intech Systems",
+      "Founder of Intech Systems",
+      "Intech systems Founder",
+      "Intech systems chairman",
+      "Chairman",
+      "Founder"
+
+      ],
+      "responses": ["Ashok Mehta is the Chairman and Founder of Intech Systems, a Microsoft Dynamics business solutions partner based out of Ahmedabad, India, with offices in the USA. As one of the top Microsoft Dynamics partners in India, Intech Systems is trusted by businesses worldwide for their digital transformation journey."
+
+      ]
+    },
+    {
+      "tag": "ceo",
+      "patterns": ["who is ceo of intech?",
+      "who is Anuja parikh",
+      "who is ceo of intech?",
+      "ceo of Intech Systems",
+      "CEO",
+      "Intech CEO"
+      ],
+      "responses": ["Anuja Parikh is the CEO of Intech Systems. She has over 20+ years of experience in various avenues of business management including strategy building, business solution consulting, global marketing, ecommerce, and business development."
+          
+      ]
+    },
+    {
+      "tag": "MD",
+      "patterns": ["who is md of intech?",
+      "who is deval parikh",
+      "who is md of intech?",
+      "md of Intech Systems",
+      "Managing Director",
+      "Intech systems MD",
+      "MD",
+      "Intech systems managing director"  
+      ],
+      "responses": ["Deval parikh is the Managing Director of Intech Systems and focuses on giving overall leadership on growth strategies for the firm."    
+      ]
+    },
+    {"tag":"crm",
+    "patterns":[
+      "tell me about crm"
+      ,"crm about","what is crm",
+      "customer relationship management","Microsoft Dynamics crm","Microsoft Dynamics customer relationship management",
+      "what is customer relationship management"
+    ],
+    "responses":["CRM is not just confined to the application of technology, but it is more of a strategy today the companies are implementing to learn more about customers needs and their behaviors. This helps in developing a stronger relationship with them. It’s essential that business strategy and technology must work in hand as to bring a customer-centric plan to life. Want to examine the new traits and abilities of Dynamics CRM? then contact us."
+    ]
+  }
+  ,
+  {
+    "tag":"Microsoft Dynamics ERP",
+    "patterns":["erp","Microsoft Dynamics ERP",
+    "what is Microsoft Dynamics ERP","how its work","Enterprise Resource Management",
+    "what is Enterprise Resource Management","how work Enterprise Resource Management",
+    "how work erp"
+
+    ],
+    "responses":["An Enterprise Resource Management (ERP) System is an integrated management application that helps to interpret and manage finance, supply chain, manufacturing, project management, and other day-to-day business operations efficiently."
+
+    ]
+  },
+  {
+    "tag":"demo",
+    "patterns":["demo", "schedule demo"
+
+    ],
+    "responses":["For demo of any solution you can contact use on \n +91 79-6611-8960"
+
+    ]
+  },
+  {
+    "tag":"quick books",
+    "patterns":[
+      "quick books",
+      "quickbooks",
+      "what is quick books",
+      "tell me about quick books"
+    ],
+    "responses":["QuickBooks is a popular accounting software that helps small and mid-sized businesses process bills and make business payments."
+
+    ]
+  },
+  {
+    "tag":"power bi dashboard",
+    "patterns":["power bi dashboard","powerbi dashboard", "show me powerbi dashboard",
+    "link for power bi dash board"
+
+    ],
+    "responses":["At Intech we provide interactive powerBi dashboards for your business functions.Let's take a deep dive and learn more about Power Bi here :- follow\n <a href='https://intech-systems.com/products/power-platform/power-bi/#powerbi-dashboards' target='_blank'>PowerBi Dashboards</a>"
+
+    ]
+  },
+  {
+    "tag":" Privacy Policy",
+    "patterns":[" Privacy Policy","your Privacy Policy","link for  Privacy Policy"
+
+    ],
+    "responses":["Read our Privacy Policy on: \n <a href='https://intech-systems.com/privacy-policy/' target='_blank'>Privacy Policy</a>"
+
+    ]
+  },
+  {
+    "tag":"Terms of Use ",
+    "patterns":["Terms of Use",
+    "what is Terms of Use",
+    "intech Terms of Use"
+
+    ],
+    "responses":["For Terms of Use you can visit us at:-\n <a href='https://intech-systems.com/terms-of-use/' target='_blank'>Click Here</a>"
+
+    ]
+  },
+  {
+    "tag":"Project Lead - Business Central (Functional)",
+    "patterns":[
+      "Project Lead - Business Central Functional job","Project Lead - Business Central Functional job opening",
+      "job for Project Lead Business Central Functional",
+      "job opening for Project Lead Business Central Functional",
+      "vacancy for Project Lead Business Central Functional",
+      "job vacancy for Project Lead Business Central Functional"
+    ],
+    "responses":["For job opening of Project Lead-Business Central (Functional) you can visit us at:- \n <a href='https://intech-systems.com/careers/project-lead-business-central-functional/' target='_blank'>Click Here</a>"
+
+    ]
+
+  },
+  {
+    "tag":"SharePoint Developer job",
+    "patterns":[
+      "SharePoint Developer job", "SharePoint Developer job opening","sharepoint developer",
+      "job for SharePoint Developer","vacancy for SharePoint Developer","job vacancy for SharePoint Developer job"],
+    "responses":["For job opening of SharePoint Developer you can visit us at:-:\n <a href='https://intech-systems.com/careers/sharepoint-developer/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"Dynamics 365 Project Operations Functional Consultant job",
+    "patterns":[
+      "Dynamics 365 Project Operations Functional Consultant job", 
+      "Dynamics 365 Project Operations Functional Consultant job opening",
+      "job for Dynamics 365 Project Operations Functional Consultant",
+      "vacancy for Dynamics 365 Project Operations Functional Consultant",
+      "job vacancy for Dynamics 365 Project Operations Functional Consultant job",
+      "D365 Project Operations Functional Consultant job", 
+      "D365 Project Operations Functional Consultant job opening",
+      "job for D365 Project Operations Functional Consultant",
+      "vacancy for D365 Project Operations Functional Consultant",
+      "job vacancy for D365 Project Operations Functional Consultant job"
+    ],
+    "responses":["For job opening of Dynamics 365 Project Operations Functional Consultant you can visit us at:-\n <a href='https://intech-systems.com/careers/project-lead-business-central-functional/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"DotNet Lead job",
+    "patterns":[
+      "DotNet Lead job", "DotNet Lead job opening",
+      "job for DotNet Lead","vacancy for DotNet Lead","job vacancy for DotNet Lead job","dotnet job","dotnet job vacancy","dot net job opening"],
+    "responses":["For job opening of DotNet Lead you can visit us at:-\n <a href='https://intech-systems.com/careers/dotnet-lead/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"D365 Finance Consultant job",
+    "patterns":[
+      "D365 Finance Consultant job", "D365 Finance Consultant job opening","finance job","finance job opening",
+      "job for D365 Finance Consultant","vacancy for D365 Finance Consultant","job vacancy for D365 Finance Consultant",
+      "Dynamics365 Finance Consultant job", "Dynamics365 Finance Consultant job opening","show me finance consultant job",
+      "job for Dynamics 365 Finance Consultant","vacancy for Dynamics 365 Finance Consultant","job vacancy for Dynamics365 Finance Consultant"],
+    "responses":["For job opening of D365 Finance Consultant you can visit us at:-\n <a href='https://intech-systems.com/careers/d365-finance-consultant/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"Microsoft Azure Security job",
+    "patterns":[
+      "Microsoft Azure Security job", "Microsoft Azure Security job opening","microsoft azure security",
+      "job for Microsoft Azure Security","vacancy for Microsoft Azure Security","job vacancy for Microsoft Azure Security job","ms azure security job "],
+    "responses":["For job opening of Microsoft Azure Security you can visit us at:-\n <a href='https://intech-systems.com/careers/microsoft-azure-security/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"Microsoft Azure IaaS Cloud Operations Engineer job",
+    "patterns":[
+      "Microsoft Azure IaaS Cloud Operations Engineer job", "Microsoft Azure IaaS Cloud Operations Engineer job opening",
+      "job for Microsoft Azure IaaS Cloud Operations Engineer","vacancy for Microsoft Azure IaaS Cloud Operations Engineer",
+      "job vacancy for Microsoft Azure IaaS Cloud Operations Engineer job",
+      "Azure IaaS Cloud Operations Engineer job", "Azure IaaS Cloud Operations Engineer job opening",
+      "job for ms Azure IaaS Cloud Operations Engineer","vacancy for Azure IaaS Cloud Operations Engineer",
+      "job vacancy for Microsoft Azure IaaS Cloud Operations Engineer job"],
+    "responses":["For job opening of Microsoft Azure IaaS Cloud Operations Engineer you can visit us at:-\n <a href='https://intech-systems.com/careers/microsoft-azure-iaas-cloud-operations-engineer/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"Azure Technical Lead job",
+    "patterns":[
+      "Microsoft Azure Technical Lead job", "Microsoft Azure Technical Lead job opening","azure technical job",
+      "job for Azure Technical Lead","vacancy for Azure Technical Lead","job vacancy for Azure Technical Lead job","ms Azure Technical Lead job "
+    ],
+    "responses":["For job opening of Azure Technical lead you can visit us at:-\n <a href='https://intech-systems.com/careers/azure-technical-lead/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"Azure Data Analytics job",
+    "patterns":[
+      "Azure Data Analytics  job", "Azure Data Analytics job opening",
+      "job for Azure Data Analytics","vacancy for Azure Data Analytics","job vacancy for Azure Data Analytics"
+      ,"ms Azure Data Analytics job "],
+    "responses":["For job opening of Azure Data Analytics you can visit us at:-\n <a href='https://intech-systems.com/careers/azure-data-analytics/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"Project Lead CRM",
+    "patterns":[
+      "Project Lead CRM job", "Project Lead CRM job opening",
+      "job for Project Lead CRM","vacancy for Project Lead CRM","job vacancy for Project Lead CRM","Project CRM job "],
+    "responses":["For job opening of Project Lead- CRM you can visit us at:-\n <a href='https://intech-systems.com/careers/project-lead-crm/' target='_blank'>Click Here</a>"
+    
+    ]
+
+  },
+  {
+    "tag":"Services",
+    "patterns":["which kind of services you provide",
+    "tell me about your services","services","intech services","give me your service list",
+    "want to know about your services", "provide me information about your services"
+  ],
+    "responses":["At intech we provide tailored services like:-\n <a href='https://intech-systems.com/services/upgrade-migration-services/' target='_blank'>Upgrade & Migration Services</a>\n <a href='https://intech-systems.com/services/implementation-services/' target='_blank'>Implementation Services</a>\n<a href='https://intech-systems.com/services/support/' target='_blank'>Support Services</a>\n<a href='https://intech-systems.com/services/offshore-development/' target='_blank'>Offshore Development Services</a>"]
+  },
+  {
+    "tag":"Upgrade and Migration Services",
+    "patterns":["Upgrade and Migration Services","Upgrade Migration Services",
+    "tell me about Upgrade and Migration Services","provide me information about Upgrade & Migration Services",
+    " Migration Services","Upgrade Services","give me details of Upgrade & Migration Services",
+    "what is Upgrade & Migration Services","want to know about Upgrade & Migration Services"
+  ],
+    "responses":["We provide With the mainstream support for older versions of Dynamics AX and NAV either ended or ending soon, it is advisable to understand the benefits of cloud migration and move to the cloud business solution Dynamics 365.For more information you can visit us at:-\n <a href='https://intech-systems.com/services/upgrade-migration-services/' target='_blank'>Click here</a> "]
+  },
+  {
+    "tag":"implementation Services",
+    "patterns":["implementation Services",
+    "tell me about implementation Services","provide me information about implementation Services",
+    " implementation","give me details of implementation Services",
+    "what is implementation Services","want to know about implementation Services"],
+    "responses":["We provide Business benefits from any ERP and CRM solution implementation. The Microsoft Dynamics 365 project implementation is a meticulous task requiring weeks of planning and various business aspects into consideration. A successful implementation asks not only for the right solution but also for the right partner with the required skills.For more information you can visit us at:- <a href='https://intech-systems.com/services/implementation-services/' target='_blank'>Click here</a>"]
+  },
+  {
+    "tag":"Support Services",
+    "patterns":["Support Services",
+    "tell me about Support Services","provide me information about Support Services",
+    " Support","give me details of Support Services",
+    "what is Support Services","want to know about Support Services"],
+    "responses":["We provide A quality support plan and dedicated experts is the key to your organization's success with your Microsoft business applications.For more information you can visit us at:-\n <a href='https://intech-systems.com/services/support/' target='_blank'>Click here</a>"]
+  },
+  {
+    "tag":"Offshore Development Services",
+    "patterns":["Offshore Development Services",
+    "tell me about Offshore Development Services","provide me information about Offshore Development Services",
+    "Offshore Development","give me details of Offshore Development Services",
+    "what is Offshore Development Services","want to know about Offshore Development Services"],
+    "responses":["Offshore development enables businesses to lower their operating costs that come with customization and maintenance of a project. It allows businesses to augment their resources strength without the need to hire professional developers and consultants.for more information\n <a href='https://intech-systems.com/services/support/' target='_blank'>Click here</a>"]
+  }
+  ]
+}
